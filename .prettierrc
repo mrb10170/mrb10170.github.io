@@ -1,0 +1,26 @@
+{
+    "tabWidth": 4,
+    "endOfLine": "lf",
+    "printWidth": 120,
+    "useTabs": true,
+    "semi": true,
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "htmlWhitespaceSensitivity": "ignore",
+    "eslintIntegration": true,
+    "overrides": [
+        {
+            "files": [
+                "*.json",
+                "*.code-snippets",
+                "*.code-workspace",
+                ".prettierrc"
+            ],
+            "options": {
+                "printWidth": 0
+            }
+        }
+    ]
+}
