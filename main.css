@@ -1,19 +1,41 @@
 /* Main CSS */
 
 body {
-	background-color: tan;
+	background-color: #aaa;
 	font-family: Arial, sans-serif;
 }
 
 h1 {
+	background-color: #FFCD77;
 	text-align: center;
-	border-bottom: 2px solid black;
-	padding-bottom: 5px;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 5px;
+	margin: 10px auto;
+	width: 75%;
 }
 
 article {
 	border: 1px solid black;
 	border-radius: 3px;
-	width: 50%;
-	padding: 10px;
+	width: 40%;
+	padding: 10px 50px;
+	background-color: #DACBB3;
+	margin: 10px auto;
+}
+
+article h2 {
+	text-align: center;
+}
+
+article a {
+	color: #399532;
+}
+
+article a:hover {
+	color: #0E3A19;
+}
+
+article a:visited {
+	color: #0E3A19;
 }
