@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/myapp/static/js/main.469cd410.chunk.js",
-    "main.js.map": "/myapp/static/js/main.469cd410.chunk.js.map",
-    "runtime~main.js": "/myapp/static/js/runtime~main.e4f53ea3.js",
-    "runtime~main.js.map": "/myapp/static/js/runtime~main.e4f53ea3.js.map",
-    "static/css/2.764ccc25.chunk.css": "/myapp/static/css/2.764ccc25.chunk.css",
-    "static/js/2.0687d4fb.chunk.js": "/myapp/static/js/2.0687d4fb.chunk.js",
-    "static/js/2.0687d4fb.chunk.js.map": "/myapp/static/js/2.0687d4fb.chunk.js.map",
-    "index.html": "/myapp/index.html",
-    "precache-manifest.3fbef78001521b8221563759cf4d64ac.js": "/myapp/precache-manifest.3fbef78001521b8221563759cf4d64ac.js",
-    "service-worker.js": "/myapp/service-worker.js",
-    "static/css/2.764ccc25.chunk.css.map": "/myapp/static/css/2.764ccc25.chunk.css.map",
-    "static/media/logo.svg": "/myapp/static/media/logo.ee7cd8ed.svg"
+    "main.js": "/mrb10170.github.io/static/js/main.ab63f4f2.chunk.js",
+    "main.js.map": "/mrb10170.github.io/static/js/main.ab63f4f2.chunk.js.map",
+    "runtime~main.js": "/mrb10170.github.io/static/js/runtime~main.ab803c7d.js",
+    "runtime~main.js.map": "/mrb10170.github.io/static/js/runtime~main.ab803c7d.js.map",
+    "static/css/2.764ccc25.chunk.css": "/mrb10170.github.io/static/css/2.764ccc25.chunk.css",
+    "static/js/2.9960a0ca.chunk.js": "/mrb10170.github.io/static/js/2.9960a0ca.chunk.js",
+    "static/js/2.9960a0ca.chunk.js.map": "/mrb10170.github.io/static/js/2.9960a0ca.chunk.js.map",
+    "index.html": "/mrb10170.github.io/index.html",
+    "precache-manifest.f7e03972339840d36307aa5cbdfeb30f.js": "/mrb10170.github.io/precache-manifest.f7e03972339840d36307aa5cbdfeb30f.js",
+    "service-worker.js": "/mrb10170.github.io/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/mrb10170.github.io/static/css/2.764ccc25.chunk.css.map",
+    "static/media/logo.svg": "/mrb10170.github.io/static/media/logo.ee7cd8ed.svg"
   }
 }

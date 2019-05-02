@@ -2,7 +2,7 @@
 	"name": "myapp",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://mrb10170.github.io/myapp",
+	"homepage": "http://mrb10170.github.io/",
 	"dependencies": {
 		"normalize.css": "^8.0.1",
 		"react": "^16.8.6",
