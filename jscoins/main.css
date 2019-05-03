@@ -1,0 +1,28 @@
+/* Main CSS */
+
+html {
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+
+input {
+	text-align: center;
+	width: 50%;
+}
+
+#coinOutput {
+	min-height: 200px;
+	padding-left: 15%;
+}
+
+#container {
+	width: 20%;
+	background-color: #00eeee;
+	margin: 0 auto;
+	padding: 20px;
+	border: 15px solid #000;
+}
+
+section {
+	text-align: center;
+}
