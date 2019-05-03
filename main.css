@@ -24,6 +24,15 @@ article {
 	margin: 10px auto;
 }
 
+section {
+	height: 50px;
+}
+
+.link {
+	width: 45%;
+	float: left;
+}
+
 article h2 {
 	text-align: center;
 }
@@ -38,4 +47,16 @@ article a:hover {
 
 article a:visited {
 	color: #0E3A19;
+}
+
+@media (max-width: 600px) {
+	.link {
+		width: 100%;
+		float: none;
+		padding: 10px 0;
+	}
+	
+	section {
+		height: 100px;
+	}
 }

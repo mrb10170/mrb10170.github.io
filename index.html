@@ -14,19 +14,32 @@
 </header>
 <main>
 	<article>
-		<h2>HTML5</h2>
+		<h2>HTML5 & JavaScript</h2>
 		<section>
-			<p><a href="stickynotes/notetoself4">Sticky Notes</a></p>
+			<div class="link"><a href="stickynotes/notetoself4.html" target="_blank">Sticky Notes</a></div>
+			<div class="link"><a href="jscoins/coins.html" target="_blank">Coin Calculator</a></div> 
 		</section>
-		
-		<h2>JavaScript</h2>
+		<h2>UI/UX</h2>
 		<section>
-			 <p><a href="jscoins/coins">Coin Calculator</a></p> 
-		</section>
+			<div class="link"><a onclick="openWin(1)">Reinhold Associates</a></div>
+			<div class="link"><a onclick="openWin(2)">Teacher Education Programs</a></div>
 	</article>
 </main>
 <footer>
 	
 </footer>
+
+
+<script>
+var popWin;
+
+function openWin(link) {
+  myWindow = window.open("", "popWin", "width=800,height=600");
+  myWindow.document.write("<img src='popupimages/" + link + ".png' />");
+}
+
+
+</script>
+
 </body>
 </html>
