@@ -1,0 +1,15 @@
+
+.style1 {
+	color: #FFFFFF
+}
+	
+body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+}
+
+#answers {
+	height: 30px;
+}
