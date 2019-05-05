@@ -16,19 +16,26 @@
 	<article>
 		<section>
 			<h2>Professional History</h2>
-			<div><a href="https://www.kasperskylab.com" target="_blank">Kaspersky Lab</a> - <span class="little">In my 4 years with Kaspersky Lab, I developed web content using HTML and CSS in a CMS environment as part of a team for a multi-million dollar international business. I worked to maintain and update dozens of websites that served countries in multiple languages across six continents, including major site updates, product launches, a complete site design overhaul, and managing client post-launch requests.</span></div>
+			<figure><a href="https://www.kaspersky.com"><img src="images/kaspersky.png" alt="Kaspersky" /></a></figure>
+			<div><a href="https://www.kaspersky.com" target="_blank">Kaspersky Lab</a> - <span class="little">In my 4 years with Kaspersky Lab, I developed web content using HTML and CSS in a CMS environment as part of a team for a multi-million dollar international business. I worked to maintain and update dozens of websites that served countries in multiple languages across six continents, including major site updates, product launches, a complete site design overhaul, and managing client post-launch requests.</span></div>
 		</section>
 		<section>
 			<h2>HTML5 & JavaScript</h2>
-			<div><a href="jscoins/coins.html" target="_blank">Coin Calculator</a> - <span class="little">An exercise in JavaScript meant to demonstrate arrays and mathematic functions.</span></div> 
+			<div><a href="jscoins/coins.html" target="_blank">Coin Calculator</a> - <span class="little">An exercise in JavaScript meant to explore arrays and mathematic functions.</span></div> 
 			<br />
 			<div><a href="stickynotes/notetoself4.html" target="_blank">Sticky Notes</a> - <span class="little">An app built as part of a tutorial to demonstrate the new capabilities of HTML5. </span></div>
 		</section>
 		<section>
 			<h2>Client Mockups</h2>
 			<p class="little">Site redesigns for real-world clients, where I served as part of a collaborative team.</p>
-			<div class="half"><a onclick="openWin(1)">Reinhold Associates</a></div>
-			<div class="half"><a onclick="openWin(2)">Teacher Education Programs</a></div>
+			<div class="half">
+				<a onclick="openWin(1)">Reinhold Associates</a><br />
+				<figure><a onclick="openWin(1)"><img src="images/1.png" alt="RARE" /></a></figure>
+			</div>
+			<div class="half">
+				<a onclick="openWin(2)">Teacher Education Programs</a><br />
+				<figure><a onclick="openWin(2)"><img src="images/2.png" alt="LSC TEP" /></a></figure>
+			</div>
 	</article>
 	
 	<article>
@@ -47,7 +54,7 @@ var popWin;
 
 function openWin(link) {
   myWindow = window.open("", "popWin", "width=800,height=600");
-  myWindow.document.write("<img src='popupimages/" + link + ".png' />");
+  myWindow.document.write("<img src='images/" + link + ".png' />");
 }
 
 </script>

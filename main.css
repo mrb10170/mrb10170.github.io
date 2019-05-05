@@ -1,31 +1,28 @@
 /* Main CSS */
 
 body {
-	background-color: #fff;
+	background-color: #000;
 	font-family: Arial, sans-serif;
-	padding: 0;
-	margin: 0;
+
 }
 
 h1 {
-	background-color: #FFCD77;
+	background-color: #fff;
 	text-align: center;
 	padding: 5px;
 	margin: 0 auto;
 }
 
 article {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-radius: 3px;
 	width: 50%;
 	padding: 10px 50px;
-	background-color: #DACBB3;
+	background-color: #fff;
 	margin: 10px auto;
 }
 
 section {
 	min-height: 100px;
+	overflow: auto;
 }
 
 .half {
@@ -36,10 +33,6 @@ section {
 
 .little {
 	font-size: 0.9em;
-}
-
-article h2 {
-	text-align: center;
 }
 
 article a {
@@ -54,6 +47,14 @@ article a:visited {
 	color: #0E3A19;
 }
 
+figure {
+	float: left;
+}
+
+figure img {
+	width: 200px;
+}
+
 @media (max-width: 600px) {
 	.half {
 		width: 100%;
@@ -63,5 +64,9 @@ article a:visited {
 	
 	section {
 		min-height: 100px;
+	}
+	
+	figure img {
+		width: 100px;
 	}
 }
