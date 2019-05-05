@@ -1,13 +1,13 @@
 /* Main CSS */
 
 body {
-	background-color: #000;
+	background-color: #111;
 	font-family: Calibri, Arial, sans-serif;
-
+	margin: auto;
 }
 
-h1 {
-	background-color: #fff;
+header {
+	background-color: #eee;
 	text-align: center;
 	padding: 5px;
 	margin: 0 auto;
@@ -16,7 +16,7 @@ h1 {
 article {
 	width: 50%;
 	padding: 10px 50px;
-	background-color: #fff;
+	background-color: #eee;
 	margin: 10px auto;
 }
 
