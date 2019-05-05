@@ -10,25 +10,32 @@
 </head>
 <body>
 <header>
-	<h1>Mark Belluardo</h1>
+	<h1>Mark Belluardo<br />Web Producer - Portfolio</h1>
 </header>
 <main>
 	<article>
 		<section>
 			<h2>Professional History</h2>
-			<div class="link"><a href="https://www.kasperskylab.com">Kaspersky Lab</a></div>
-			<div class="link">&nbsp;</div>
+			<div><a href="https://www.kasperskylab.com" target="_blank">Kaspersky Lab</a> - <span class="little">In my 4 years with Kaspersky Lab, I developed web content using HTML and CSS in a CMS environment as part of a team for a multi-million dollar international business. I worked to maintain and update dozens of websites that served countries in multiple languages across six continents, including major site updates, product launches, a complete site design overhaul, and managing client post-launch requests.</span></div>
 		</section>
 		<section>
 			<h2>HTML5 & JavaScript</h2>
-			<div class="link"><a href="stickynotes/notetoself4.html" target="_blank">Sticky Notes</a></div>
-			<div class="link"><a href="jscoins/coins.html" target="_blank">Coin Calculator</a></div> 
+			<div><a href="jscoins/coins.html" target="_blank">Coin Calculator</a> - <span class="little">An exercise in JavaScript meant to demonstrate arrays and mathematic functions.</span></div> 
+			<br />
+			<div><a href="stickynotes/notetoself4.html" target="_blank">Sticky Notes</a> - <span class="little">An app built as part of a tutorial to demonstrate the new capabilities of HTML5. </span></div>
 		</section>
 		<section>
-			<h2>UI/UX</h2>
-			<div class="link"><a onclick="openWin(1)">Reinhold Associates</a></div>
-			<div class="link"><a onclick="openWin(2)">Teacher Education Programs</a></div>
+			<h2>Client Mockups</h2>
+			<p class="little">Site redesigns for real-world clients, where I served as part of a collaborative team.</p>
+			<div class="half"><a onclick="openWin(1)">Reinhold Associates</a></div>
+			<div class="half"><a onclick="openWin(2)">Teacher Education Programs</a></div>
 	</article>
+	
+	<article>
+		<section>
+			<h2>Contact</h2>
+			<div class="half"><a href="https://www.linkedin.com/in/mark-belluardo-ba488b66/">LinkedIn</a></div>
+		</section>
 </main>
 <footer>
 	
@@ -42,7 +49,6 @@ function openWin(link) {
   myWindow = window.open("", "popWin", "width=800,height=600");
   myWindow.document.write("<img src='popupimages/" + link + ".png' />");
 }
-
 
 </script>
 
