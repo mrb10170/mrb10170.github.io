@@ -1,7 +1,7 @@
 /* Main CSS */
 
 body {
-	background-color: #aaa;
+	background-color: #888;
 	font-family: Arial, sans-serif;
 }
 
@@ -25,7 +25,7 @@ article {
 }
 
 section {
-	height: 50px;
+	min-height: 100px;
 }
 
 .link {
@@ -57,6 +57,6 @@ article a:visited {
 	}
 	
 	section {
-		height: 100px;
+		min-height: 100px;
 	}
 }
